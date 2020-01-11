@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Ruldane/Robos-friends-app/static/css/main.a1f3cbde.chunk.css",
-    "main.js": "/Ruldane/Robos-friends-app/static/js/main.a6afbccf.chunk.js",
-    "main.js.map": "/Ruldane/Robos-friends-app/static/js/main.a6afbccf.chunk.js.map",
-    "runtime-main.js": "/Ruldane/Robos-friends-app/static/js/runtime-main.14c09b4b.js",
-    "runtime-main.js.map": "/Ruldane/Robos-friends-app/static/js/runtime-main.14c09b4b.js.map",
-    "static/css/2.eb45ad44.chunk.css": "/Ruldane/Robos-friends-app/static/css/2.eb45ad44.chunk.css",
-    "static/js/2.ad181304.chunk.js": "/Ruldane/Robos-friends-app/static/js/2.ad181304.chunk.js",
-    "static/js/2.ad181304.chunk.js.map": "/Ruldane/Robos-friends-app/static/js/2.ad181304.chunk.js.map",
-    "index.html": "/Ruldane/Robos-friends-app/index.html",
-    "precache-manifest.e79a2ec6e2b90eba93f58aeee639b467.js": "/Ruldane/Robos-friends-app/precache-manifest.e79a2ec6e2b90eba93f58aeee639b467.js",
-    "service-worker.js": "/Ruldane/Robos-friends-app/service-worker.js",
-    "static/css/2.eb45ad44.chunk.css.map": "/Ruldane/Robos-friends-app/static/css/2.eb45ad44.chunk.css.map",
-    "static/css/main.a1f3cbde.chunk.css.map": "/Ruldane/Robos-friends-app/static/css/main.a1f3cbde.chunk.css.map",
-    "static/js/2.ad181304.chunk.js.LICENSE": "/Ruldane/Robos-friends-app/static/js/2.ad181304.chunk.js.LICENSE",
-    "static/media/App.css": "/Ruldane/Robos-friends-app/static/media/SEGA.12a3db8b.woff"
+    "main.css": "/Robos-friends-app/static/css/main.0007d25e.chunk.css",
+    "main.js": "/Robos-friends-app/static/js/main.9eca97a6.chunk.js",
+    "main.js.map": "/Robos-friends-app/static/js/main.9eca97a6.chunk.js.map",
+    "runtime-main.js": "/Robos-friends-app/static/js/runtime-main.73784075.js",
+    "runtime-main.js.map": "/Robos-friends-app/static/js/runtime-main.73784075.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/Robos-friends-app/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.ad181304.chunk.js": "/Robos-friends-app/static/js/2.ad181304.chunk.js",
+    "static/js/2.ad181304.chunk.js.map": "/Robos-friends-app/static/js/2.ad181304.chunk.js.map",
+    "index.html": "/Robos-friends-app/index.html",
+    "precache-manifest.50dd0e02cc0e2afdabb62f5e3cd2b84b.js": "/Robos-friends-app/precache-manifest.50dd0e02cc0e2afdabb62f5e3cd2b84b.js",
+    "service-worker.js": "/Robos-friends-app/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/Robos-friends-app/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.0007d25e.chunk.css.map": "/Robos-friends-app/static/css/main.0007d25e.chunk.css.map",
+    "static/js/2.ad181304.chunk.js.LICENSE": "/Robos-friends-app/static/js/2.ad181304.chunk.js.LICENSE",
+    "static/media/App.css": "/Robos-friends-app/static/media/SEGA.12a3db8b.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.14c09b4b.js",
+    "static/js/runtime-main.73784075.js",
     "static/css/2.eb45ad44.chunk.css",
     "static/js/2.ad181304.chunk.js",
-    "static/css/main.a1f3cbde.chunk.css",
-    "static/js/main.a6afbccf.chunk.js"
+    "static/css/main.0007d25e.chunk.css",
+    "static/js/main.9eca97a6.chunk.js"
   ]
 }
