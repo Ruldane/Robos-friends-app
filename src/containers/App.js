@@ -1,51 +1,54 @@
 import React, {Component} from "react";
-import {robots} from "./robots";
-import CarList from "./CardList";
-import SearchBox from "./SearchBox";
+import {connect} from 'react-redux'
+import CarList from "../components/CardList";
+import SearchBox from "../components/SearchBox";
 import './App.css'
-import Scroll from "./Scroll";
+import Scroll from "../components/Scroll";
+import {setSerarchfield, requestRobots} from "../actions";
+import Header from "../components/Header";
+
+
+const mapStateToProps = state => {
+    return {
+        searchField: state.searchRobots.searchField,
+        robots: state.requestRobots.robots,
+        isPending: state.requestRobots.isPending,
+        error: state.requestRobots.error
+    }
+};
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        onSearchChange: (event) => dispatch (setSerarchfield(event.target.value)),
+        onRequestRobots: () => dispatch(requestRobots())
+
+    }
+};
 
 class App extends Component{
-    constructor(props) {
-        super(props);
-        this.state = {
-            robots: [],
-            searchfield: ''
-        }
-    }
 
     componentDidMount() {
-        fetch('https://jsonplaceholder.typicode.com/users')
-            .then(response => {
-            return response.json();
-        })
-        .then(users => {
-            this.setState({robots: users})
-        })
+       this.props.onRequestRobots()
     }
 
-    onSearchChange = (event) => {
-        this.setState({ searchfield: event.target.value })
-    };
-
     render (){
-        const filterRobots = this.state.robots.filter(robots => {
-            return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+
+        const {searchField, onSearchChange, robots, isPending } = this.props;
+        const filterRobots = robots.filter(robot => {
+            return robot.name.toLowerCase().includes(searchField.toLowerCase());
         });
-        if (this.state.robots.length === 0){
-            return <h1>Loading</h1>
-        } else {
-            return (
+        return isPending ?
+             <h1>Loading</h1> :
+             (
                 <div className='tc'>
-                    <h1 className="h1">RoboFriends</h1>
-                    <SearchBox searchChange={this.onSearchChange}/>
+                   <Header />
+                    <SearchBox searchChange={onSearchChange}/>
                     <Scroll>
                         <CarList robots={filterRobots}/>
                     </Scroll>
                 </div>
             );
         }
-    }
 }
 
-export default App;
+export default connect(mapStateToProps, mapDispatchToProps)(App);
