@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Robos-friends-app/static/css/main.0007d25e.chunk.css",
-    "main.js": "/Robos-friends-app/static/js/main.9eca97a6.chunk.js",
-    "main.js.map": "/Robos-friends-app/static/js/main.9eca97a6.chunk.js.map",
+    "main.js": "/Robos-friends-app/static/js/main.af904002.chunk.js",
+    "main.js.map": "/Robos-friends-app/static/js/main.af904002.chunk.js.map",
     "runtime-main.js": "/Robos-friends-app/static/js/runtime-main.73784075.js",
     "runtime-main.js.map": "/Robos-friends-app/static/js/runtime-main.73784075.js.map",
     "static/css/2.eb45ad44.chunk.css": "/Robos-friends-app/static/css/2.eb45ad44.chunk.css",
     "static/js/2.ad181304.chunk.js": "/Robos-friends-app/static/js/2.ad181304.chunk.js",
     "static/js/2.ad181304.chunk.js.map": "/Robos-friends-app/static/js/2.ad181304.chunk.js.map",
     "index.html": "/Robos-friends-app/index.html",
-    "precache-manifest.50dd0e02cc0e2afdabb62f5e3cd2b84b.js": "/Robos-friends-app/precache-manifest.50dd0e02cc0e2afdabb62f5e3cd2b84b.js",
+    "precache-manifest.8d0cb2cd4a7b8430fc1b832d6a8aad33.js": "/Robos-friends-app/precache-manifest.8d0cb2cd4a7b8430fc1b832d6a8aad33.js",
     "service-worker.js": "/Robos-friends-app/service-worker.js",
     "static/css/2.eb45ad44.chunk.css.map": "/Robos-friends-app/static/css/2.eb45ad44.chunk.css.map",
     "static/css/main.0007d25e.chunk.css.map": "/Robos-friends-app/static/css/main.0007d25e.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.eb45ad44.chunk.css",
     "static/js/2.ad181304.chunk.js",
     "static/css/main.0007d25e.chunk.css",
-    "static/js/main.9eca97a6.chunk.js"
+    "static/js/main.af904002.chunk.js"
   ]
 }
